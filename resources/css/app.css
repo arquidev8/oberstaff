@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.fixed-button {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
+.hidden-form {
+    display: none;
+}
+
+
+
+
+
+
+
+    .card:hover {
+        transform: translateY(-12px); /* Levanta la tarjeta 5px hacia arriba */
+        transition: transform 0.3s ease; /* Suaviza el movimiento */
+    }
+    
+
+
+  
+    
